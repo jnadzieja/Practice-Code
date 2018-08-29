@@ -1,0 +1,49 @@
+#fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    background: yellow;
+    margin: 10px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+h1 {
+    margin-right: 500px;
+    margin-left: 500px;
+    font-family: Helvetica;
+}
+
+p {
+    margin-right: 500px;
+    margin-left: 500px;
+    line-height: 24px;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+#relative {
+    position: relative;
+    margin-right: 500px;
+    margin-left: 500px;
+    height: 400px;
+    width: 920px;
+    background: magenta;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+#absolute {
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    background: chartreuse;
+    height: 40%;
+    width: 50%;
+    font-family: Helvetica;
+    font-size: 18px;
+}

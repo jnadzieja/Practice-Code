@@ -1,0 +1,11 @@
+.songTitle {
+    font-family: Helvetica;
+    font-variant: small-caps;
+}
+
+.artistName {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 18px;
+}
