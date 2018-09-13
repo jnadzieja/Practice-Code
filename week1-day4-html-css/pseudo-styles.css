@@ -1,0 +1,45 @@
+* {
+    font-family: Helvetica;
+    color: black
+}
+
+#button1 {
+    height: 120px;
+    width: 20%;
+    color: white;
+    background: magenta;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#button1:focus {
+    background: cyan;
+}
+
+#button1:active {
+    background: chartreuse;
+}
+
+#button1:hover {
+    background: yellow;
+}
+
+#google {
+    font-size: 24px;
+    margin-left: 47%;
+    margin-right: 50%;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#google:focus {
+    background: purple;
+    color: yellow;
+    font-family: "Lucida Sans"
+}
+
+#google:hover {
+    background: yellow;
+    font-family: Verdana;
+    color: purple;
+}

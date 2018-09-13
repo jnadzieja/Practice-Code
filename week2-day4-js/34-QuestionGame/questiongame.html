@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Question Game!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <h1>Question Game!</h1>
+
+  <p>Score: <span id="scoreText">0</span></p>
+
+  <p id="questionText">Is the grass green?</p>
+
+  <p>'T' for true, 'F' for false</p>
+
+  <script>
+    var questions1 = {
+      q1: "Is the grass green?",
+      a1: "t",
+    }
+    var questions2 = {
+      q2: "Is the sky blue?",
+      a2: "t",
+    }
+    var questions3 = {
+      q3: "Is the sun cold?",
+      a3: "f",
+    }
+    var questions4 = {
+      question4: "There are 6 fingers on each hand?",
+      a4: "f",
+    }
+    var questions5 = {
+      q5: "Potato chips are healthy?",
+      a5: "f",
+    }
+
+    var score = 0;
+
+    document.onkeyup = function (event) {
+
+      var userGuess = event.key
+
+      if (userGuess === "t") {
+        score++;
+        alert("Correct!")
+        document.getElementById("scoreText").textContent = score;
+        document.getElementById("questionText").textContent = questions2.q2
+      } else {
+        alert("Incorrect!")
+        document.getElementById("scoreText").textContent = score;
+        document.getElementById("questionText").textContent = questions2.q2
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>
